@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="411dp"
+        android:layout_height="54dp"
+        android:background="#0481BA"
+        android:backgroundTint="#185B78"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="chat"
+        android:textSize="18"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="44dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="@+id/textView18"
+        app:srcCompat="@mipmap/vt1"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="46dp"
+        android:layout_height="35dp"
+        app:srcCompat="@mipmap/sot"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="409dp"
+        android:layout_height="64dp"
+        android:background="#E8E4E4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="342dp"
+        android:layout_height="56dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Bạn có thắc mắc với sản phẩm vừa xem đừng ngại chát với shop!"
+        android:textSize="16"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="420dp"
+        android:layout_height="94dp"
+        android:background="#F3EFEF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="414dp"
+        android:layout_height="90dp"
+        android:background="#D6D4D4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="408dp"
+        android:layout_height="90dp"
+        android:background="#D6D4D4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="418dp"
+        android:layout_height="96dp"
+        android:background="#D6D4D4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="117dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/noi"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="413dp"
+        android:layout_height="87dp"
+        android:background="#D6D4D4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="409dp"
+        android:layout_height="87dp"
+        android:background="#D6D4D4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view8" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EA4242"
+        android:text="Chat"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        tools:layout_editor_absoluteX="293dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#DA2F2F"
+        android:text="chat"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.558"
+        tools:layout_editor_absoluteX="293dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D32626"
+        android:text="chat"
+        app:layout_constraintBottom_toBottomOf="@+id/view6"
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        app:layout_constraintVertical_bias="0.547"
+        tools:layout_editor_absoluteX="293dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CF2121"
+        android:text="chat"
+        app:layout_constraintBottom_toBottomOf="@+id/view7"
+        app:layout_constraintTop_toBottomOf="@+id/view6"
+        app:layout_constraintVertical_bias="0.604"
+        tools:layout_editor_absoluteX="293dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D12424"
+        android:text="chat"
+        app:layout_constraintBottom_toBottomOf="@+id/view8"
+        app:layout_constraintTop_toBottomOf="@+id/view7"
+        app:layout_constraintVertical_bias="0.512"
+        tools:layout_editor_absoluteX="293dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D11F1F"
+        android:text="chat"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:layout_constraintTop_toBottomOf="@+id/view8"
+        app:layout_constraintVertical_bias="0.552"
+        tools:layout_editor_absoluteX="293dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="114dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintTop_toBottomOf="@+id/view4"
+        app:srcCompat="@mipmap/khoga"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cá nấu lẩu,nấu mì mini..."
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop devang"
+        android:textColor="#E65757"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="114dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view6"
+        app:layout_constraintStart_toStartOf="@+id/view6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:srcCompat="@mipmap/cancau" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="122dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view7"
+        app:layout_constraintStart_toStartOf="@+id/view7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:srcCompat="@mipmap/dochoi" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="119dp"
+        android:layout_height="84dp"
+        app:srcCompat="@mipmap/lanhdao"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="116dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:srcCompat="@mipmap/hieulongtrcon"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="415dp"
+        android:layout_height="76dp"
+        android:background="D6D4D4"
+        android:text="Donal Trump thiên tài lãnh đạo"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1KG KHÔ GÀ BƠ TỎI ..."
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Shop"
+        android:textColor="#5E4040"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/view5"
+        tools:layout_editor_absoluteX="128dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xe cần cẩu đa năng"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="35dp"
+        android:layout_height="23dp"
+        android:text="Shop"
+        android:textColor="#5E4040"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đồ chơi dạng mô hình"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop"
+        android:textColor="#5E4040"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lãnh đạo đơn giản"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop"
+        android:textColor="#5E4040"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view8"
+        app:layout_constraintHorizontal_bias="0.335"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiểu lòng trẻ con"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shop"
+        android:textColor="#5E4040"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.335"
+        app:layout_constraintStart_toStartOf="@+id/view9"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="410dp"
+        android:layout_height="73dp"
+        android:background="#D6D4D4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="118dp"
+        android:layout_height="74dp"
+        app:srcCompat="@mipmap/donatrump"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="141dp"
+        android:layout_height="37dp"
+        android:text="Donal Trump thiên tài lãnh đạo"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C13636"
+        android:text="chat"
+        app:layout_constraintBottom_toBottomOf="@+id/view12"
+        app:layout_constraintTop_toBottomOf="@+id/view9"
+        tools:layout_editor_absoluteX="293dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LTDFood"
+        android:textColor="#C65555"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thế giới đồ chơi"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thế giới đồ chơi"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minh Long Book"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minh Long Book"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
